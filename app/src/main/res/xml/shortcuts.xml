@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut
+        android:shortcutId="compose"
+        android:enabled="true"
+        android:icon="@mipmap/ic_launcher"
+        android:shortcutShortLabel="@string/short_shortcut"
+        android:shortcutLongLabel="@string/long_shortcut"
+        android:shortcutDisabledMessage="@string/no_shortcut">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="com.example.afleshner.therealmvp"
+            android:targetClass="com.example.afleshner.therealmvp.Main2Activity" />
+        <!-- If your shortcut is associated with multiple intents, include them
+             here. The last intent in the list is what the user sees when they
+             launch this shortcut. -->
+        <categories android:name="android.shortcut.conversation" />
+    </shortcut>
+    <shortcut
+        android:shortcutId="compose_set"
+        android:enabled="true"
+        android:icon="@mipmap/ic_launcher"
+        android:shortcutShortLabel="@string/short_shortcut_set"
+        android:shortcutLongLabel="@string/long_shortcut_set"
+        android:shortcutDisabledMessage="@string/no_shortcut_set">
+        <intent
+
+            android:action="android.intent.action.VIEW"
+            android:data="Hello"
+            android:targetPackage="com.example.afleshner.therealmvp"
+            android:targetClass="com.example.afleshner.therealmvp.Main2Activity"
+            />
+        <!-- If your shortcut is associated with multiple intents, include them
+             here. The last intent in the list is what the user sees when they
+             launch this shortcut. -->
+    </shortcut>
+    <!-- Specify more shortcuts here. -->
+</shortcuts>

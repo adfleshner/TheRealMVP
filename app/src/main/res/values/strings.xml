@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">The Real MVP</string>
+    <string name="short_shortcut">Act 2</string>
+    <string name="long_shortcut">Activity 2</string>
+    <string name="no_shortcut">No Activity for you</string>
+
+
+    <string name="short_shortcut_set">Do Something</string>
+    <string name="long_shortcut_set">Do Something Different</string>
+    <string name="no_shortcut_set">Dont do it.</string>
+</resources>
